@@ -1,11 +1,8 @@
-module webrtc-sip-server
+module webrtc-go
 
 go 1.25.1
 
-require (
-	github.com/gorilla/websocket v1.5.3
-	github.com/pion/webrtc/v3 v3.3.6
-)
+require github.com/pion/webrtc/v3 v3.3.6
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
